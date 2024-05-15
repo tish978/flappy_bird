@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "flappy.owl97"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6f18b8c4-1700-4532-92f4-295980249397"
+      }
     }
   }
 }
